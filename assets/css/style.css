@@ -1,0 +1,183 @@
+/* General Elements*/
+body, html {
+    height: 100%;
+}
+
+body { 
+    /* The image used */
+    background-image: url("../images/doctorwhotheme3.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px black;
+	padding: 10px;
+}
+.col-md-12 {
+	border: solid 2px white;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+.header, .Doctors{
+	background-color:blue ;
+}
+.header, .instructions{
+	width: 55%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 27%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	margin-bottom: 10px;
+}
+.Doctors{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#mattsmith{
+	color: #3092c7;
+}
+#davidtennant{
+	color: #00aa59;
+}
+#petercapaldi{
+	color: #ec4b5f;
+}
+#tombaker{
+	color: #ffc225;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+/*general*/
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+h1 {
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
+}
+h2, h3 {
+	font-size: 22px;
+}
+
+
+/* media query 980px*/
+@media screen and (max-width: 980px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 960px;
+	}
+	.main-section {
+		width:50%;
+		float: left;
+		margin-right: 20px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+    .sidebar {
+    	float: left;
+		margin-left: 20px;  	
+    }
+    /*smaller desktop*/
+}
+
+/* media query 768px*/
+@media screen and (max-width: 768px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 768px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 200px;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+    .sidebar {
+    	width:100%;
+    	max-width: 75%;
+		float: none;
+		margin-left: 1px;
+		margin-right: 1px
+	    }
+/*portfolio page*/
+	.clear{
+		clear: both;
+		}
+   /*tablet desktop*/
+}
+
+/* media query 640px*/
+@media screen and (max-width: 640px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 640px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+	#logo, nav{
+		width: 100%;
+		float: none;
+	}
+}

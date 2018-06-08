@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <title>Doctor Who Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Sonic Screw Driver Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>This is how you Sonic!</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.<span>"Screw Drivers To Get"</span></li>
+			<li>There are four Doctors below.</li>
+			<ul>
+				<li id="mattsmith">Matt Smith</li>
+				<li id="davidtennant">David Tennant</li>
+				<li id="petercapaldi">Peter Capaldi</li>
+				<li id="tombaker">Tom Baker</li>
+			</ul>
+			<li>Click on picture of the Doctor you wish to deliver your Sonice Screw Driver.</li>
+            <li>You will add a specific amount of Screw Drivers to your total count.</li>
+			<li>You win the game by matching your total count to the random number provided to you by your local Dalek.</li>
+			<li>You lose the game if your total number of Screw Drivers goes above the random number and you will be Exterminated.</li>
+			<li>The value of each Doctor is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each Doctor.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Screw Drivers To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:<span id= "numberWins"></span><br>Exterminations:<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="Doctors">
+		<img src="assets/images/mattsmith.jpg" class=gemImage id="one" alt="MS">
+		<img src="assets/images/davidtennant-1600x720.jpg" class=gemImage id="two" alt="DT">
+		<img src="assets/images/pc.jpg" class=gemImage id= "three" alt="PC">
+		<img src="assets/images/tombaker.jpeg" class=gemImage id= "four" alt="TB">
+	</div>
+	<div class="userTotal">
+		<h2>Your total Count is:
+			<span id="finalTotal"></span>
+		</h2>
+    </div>
+
+    <div class="col-md-12">
+        <footer class="footer text-center">
+            <p><a href="https://thezarr.github.io/Bootstrap-Portfolio/">by Cesar Caceres</a> | <a href="https://thezarr.github.io/Psychic-Game/">GitHub Repo</a>
+            <br> &copy; 2018 Cesar J Caceres</p>
+        </footer>
+    </div>
+  
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
