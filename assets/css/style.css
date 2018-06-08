@@ -34,14 +34,14 @@ ul {
 	list-style: disc inside;
 	text-indent: 20px;
 }
-/* Specfic Elements*/
+
 .header, .Doctors{
 	background-color:blue ;
 }
 .header, .instructions{
 	width: 55%;
 }
-/* Classes */
+
 .numberToMatch, .winsAndLosses{
 	float: left;
 	width: 27%;
@@ -59,7 +59,7 @@ ul {
 	height: 60px;
 	margin: 10px;
 }
-/* IDs */
+
 #mattsmith{
 	color: #3092c7;
 }
@@ -74,11 +74,9 @@ ul {
 }
 
 
-* {
-	box-sizing: border-box;
-}
 
-/*general*/
+
+
 h1, h3, span{
 	font-weight: bold;
 	text-align: center;
@@ -101,7 +99,7 @@ h2, h3 {
 }
 
 
-/* media query 980px*/
+
 @media screen and (max-width: 980px) {
 
 	.container{
@@ -122,10 +120,10 @@ h2, h3 {
     	float: left;
 		margin-left: 20px;  	
     }
-    /*smaller desktop*/
+    
 }
 
-/* media query 768px*/
+
 @media screen and (max-width: 768px) {
 
 	.container{
@@ -152,14 +150,14 @@ h2, h3 {
 		margin-left: 1px;
 		margin-right: 1px
 	    }
-/*portfolio page*/
+
 	.clear{
 		clear: both;
 		}
-   /*tablet desktop*/
+   
 }
 
-/* media query 640px*/
+
 @media screen and (max-width: 640px) {
 
 	.container{
