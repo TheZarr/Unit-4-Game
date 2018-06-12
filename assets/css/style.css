@@ -35,8 +35,8 @@ ul {
 	text-indent: 20px;
 }
 
-.header, .Doctors{
-	background-color:blue ;
+.header, .doctors{
+	background-color: darkolivegreen;
 }
 .header, .instructions{
 	width: 55%;
@@ -48,16 +48,22 @@ ul {
 	height: 60px;
 }
 .userTotal{
-	width: 15%;
+	width: 40%;
 	height: 60px;
 	margin-bottom: 10px;
+	padding:1px;
+    border:1px solid #800020;
+    background-color:#9C2A00;
 }
-.Doctors{
+.doctors{
 	clear: both;
 }
-.gemImage{
+.docImage{
 	height: 60px;
 	margin: 10px;
+	padding:1px;
+    border:1px solid #800020;
+    background-color:#ff0;
 }
 
 #mattsmith{
@@ -86,12 +92,12 @@ h1, h3, span{
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: 700;
-	color: #4aaaa5;
+	color:  #003D6B;
 }
 h1 {
 	font-size: 30px;
 	line-height: 49px;
-	border-bottom: 3px solid #ddd;
+	border-bottom: 3px solid #355e3b;
 	padding-bottom: 20px;
 }
 h2, h3 {
